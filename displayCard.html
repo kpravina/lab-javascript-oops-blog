@@ -8,7 +8,7 @@
 </head>
 <body>
     <nav>
-        <img src="/assets/logo.svg" alt="logo" />
+        <img src="assets/logo.svg" alt="logo" />
         <ul>
             <li> <a href="/displayCard.html">My Blogs</a></li>
             <li> <a href="/displayCard.html">Login</a></li>
@@ -17,7 +17,7 @@
     </nav>
     <div class="body-div1">
         <div>Your Blog Posts</div>
-        <a ><button class="button" id="addBlog" ><i class="fas fa-plus-circle"></i>Add New Post</button></a>  
+        <a ><button class="button" id="addBlog" ><i class="fas fa-plus-circle"onclick="AddNewPost()"></i>Add New Post</button></a>  
     </div>
     <div class="body-div2">
         <div class="article-card" id="flashcard">
@@ -33,8 +33,8 @@
         </div>
     </div>
     <div id="popupContact">
-        <button id="close"> <img id="close" src="./assets/close-button.svg"></button>
-        <img id="rect" src=./assets/rect.svg>
+        <button id="close"> <img id="close" src="assets/close-button.svg"></button>
+        <img id="rect" src=assets/rect.svg>
         <h2>Your Post</h2>
         <div id="card" >
             <input type="hidden" name="blogId" value="" /> 
